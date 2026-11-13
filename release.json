@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "1.0.0",
+  "cliVersion": "0.1.10",
+  "installerVersion": "1.7.6",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "45626faafd18a6fdf525184b9a1092dd90bb31fe58b31a7763863507df5b5f7b"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6870524b6ef9f8cd76e1debadb1611594a6197e4eb74ff75e184ab9898e9b232"
+    },
+    {
+      "path": "skills/opilot-ads/SKILL.md",
+      "sha256": "b3b4fe83be0a4263853256c8e45e93eec1ea727d0d8aac9943f61f3cfe4a8baf"
+    },
+    {
+      "path": "skills/opilot-ads/references/commands.md",
+      "sha256": "2393e874afb41c2405986fe99028c2fada1f791d8d952632d82bbcef6b63788f"
+    },
+    {
+      "path": "skills/opilot-ads/references/troubleshooting.md",
+      "sha256": "fdc64d03161971a42c02806417f754930224094ffa1ce42ee12c40aa4e2a9fb7"
+    },
+    {
+      "path": "skills/opilot-asset-library/SKILL.md",
+      "sha256": "b4d3215be1a43f4365fbe5b2148e429f6209f192563982c451b9933346ceaf93"
+    },
+    {
+      "path": "skills/opilot-asset-library/references/filters.md",
+      "sha256": "c28d51bbacd7e0e9fac4282ea7798e0df7832e79cc4e7afebc9ea6e7f7893727"
+    },
+    {
+      "path": "skills/opilot-asset-library/references/troubleshooting.md",
+      "sha256": "3582b0082663af380f4242ca45e81ed69b2839ab6cf5027d15ada5ff9c0807ef"
+    },
+    {
+      "path": "skills/opilot-cli-install/SKILL.md",
+      "sha256": "38ce8a8407d974d07576ffba931623dbd0ef9e28a53b70c218496105d6c85d8d"
+    },
+    {
+      "path": "skills/opilot-cli-install/references/troubleshooting.md",
+      "sha256": "c2f0a96b99156ea09bbace7b4d97c153a0ecc83b944e945c5350a040b94e152b"
+    },
+    {
+      "path": "skills/opilot-login/SKILL.md",
+      "sha256": "46ba6774446105944d1e807aeea342f7fba9d6bb67baf053bdcfc882db8d1ec2"
+    },
+    {
+      "path": "skills/opilot-radar/SKILL.md",
+      "sha256": "2899ba9d570bc8b34b01b073e2fcffd2f7a8afed29a61382b94fbcaae704680d"
+    },
+    {
+      "path": "skills/opilot-radar/references/resources.md",
+      "sha256": "eda6a2f5e402f57e7cc770a7427b094911aac52cd4b195539363ac77f6549955"
+    },
+    {
+      "path": "skills/opilot-radar/references/troubleshooting.md",
+      "sha256": "21d47eb80847993485cd35a196026229e13db43741ab2f02b6637912adabbe2f"
+    }
+  ]
+}
