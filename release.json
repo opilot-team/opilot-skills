@@ -1,16 +1,24 @@
 {
   "schemaVersion": 1,
-  "releaseId": "1.0.0",
+  "releaseId": "1.1.0",
   "cliVersion": "0.1.10",
   "installerVersion": "1.7.6",
   "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "sha256": "0cb1f3616003b1909be4ae57cb06a8df2a09700360b623e1090725a74168947e"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "22980c39dd270a3d6f3f81c29ebc0650a00faec19201ee31ef36596846927ed7"
+    },
     {
       "path": "LICENSE",
       "sha256": "45626faafd18a6fdf525184b9a1092dd90bb31fe58b31a7763863507df5b5f7b"
     },
     {
       "path": "README.md",
-      "sha256": "6870524b6ef9f8cd76e1debadb1611594a6197e4eb74ff75e184ab9898e9b232"
+      "sha256": "3e782e0d9339259c4038eb55c6866c6d0c9df492f129daf365bbcb52de65bec9"
     },
     {
       "path": "skills/opilot-ads/SKILL.md",

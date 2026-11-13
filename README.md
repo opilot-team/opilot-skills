@@ -20,6 +20,25 @@ The three data skills hand off to `opilot-cli-install` and `opilot-login`, so in
 - **Opilot CLI:** the skills drive the `opilot` CLI, which has its own, lower requirement of Node.js 18 or later. Having Node.js 18 is enough for the CLI but not for the skills installer.
 - **Agent:** the commands below name the Claude Code agent (`-a claude-code`). Replace it only with another agent name that the installer supports; this README does not cover other agents.
 
+## Claude Desktop plugin marketplace
+
+The same skill folders are also bundled as the root plugin **`opilot-bxv`** in marketplace **`opilot-team`**. In Claude Desktop, open **Customize → Plugins → Add → Add marketplace**, enter `https://github.com/opilot-team/opilot-skills`, then install `opilot-bxv`. Availability and labels depend on account policy and app version.
+
+For Claude Code, the corresponding marketplace commands are:
+
+```text
+/plugin marketplace add opilot-team/opilot-skills
+/plugin install opilot-bxv@opilot-team
+```
+
+Do not keep standalone uploads and the bundled copies enabled together during testing. In a fresh session, select a plugin-qualified skill such as `/opilot-bxv:opilot-radar` and verify its full instructions and references load.
+
+Plugin releases use the publication release ID, independently of the CLI version. Skill edits, approved additions and removals arrive as a complete plugin update after marketplace syncing. Use **Check for updates**; personally added github.com marketplaces may offer **Sync automatically**. Updates are not necessarily immediate; verify in a new session. Standalone skill uploads are not removed by updating the plugin. Removing instructions does not revoke backend permissions.
+
+Installing the plugin does not install/update the Opilot CLI or grant package or BXV access. Desktop Chat may execute in a cloud sandbox, unlike a local Code session; follow `opilot-cli-install` rather than assuming local credentials are available.
+
+Local manifest validation is not proof of live marketplace installation, update delivery or production data access. Organization-managed syncing has separate admin/repository requirements and is not configured by these commands.
+
 ## Install
 
 Check that the collection can be found. No GitHub login is needed:

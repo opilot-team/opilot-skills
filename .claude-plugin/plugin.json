@@ -1,0 +1,5 @@
+{
+  "name": "opilot-bxv",
+  "version": "1.1.0",
+  "description": "Opilot CLI setup, login, and read-only BXV Radar, Ads, and Asset Library skills."
+}

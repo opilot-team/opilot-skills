@@ -1,0 +1,15 @@
+{
+  "name": "opilot-team",
+  "owner": {
+    "name": "Opilot Team"
+  },
+  "metadata": {
+    "description": "Opilot skills for CLI setup, login, and read-only BXV data."
+  },
+  "plugins": [
+    {
+      "name": "opilot-bxv",
+      "source": "./"
+    }
+  ]
+}
